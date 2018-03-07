@@ -54,3 +54,31 @@ __Where:__
 
 # Requirements
 For the rest api, the biggest and maybe hardest requirement is to make the `GET /statistics` execute in constant time and space. The best solution would be `O(1)`. It is very recommended to tackle the `O(1)` requirement as the last thing to do as it is not the only thing which will be rated in the code challenge.
+
+# Dependencies
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+* [Maven 3](http://maven.apache.org/download.cgi)  
+* The remain dependencies will be supplied by Maven.  
+
+# Installation
+1. Download or Clone the project from GitHub  
+~~~~
+git clone git@github.com:rodrigoestevao/n26-backend-test.git
+~~~~
+
+2. Go to application folder  
+~~~~
+cd n26-backend-test\transact-stats
+~~~~
+
+3. Install the application dependencies  
+~~~~
+mvn clean install
+~~~~
+
+4. Run the application  
+~~~~
+mvn spring-boot:run
+~~~~
+
+5. The API will be reachable on [http://localhost:5000](http://localhost:5000)
