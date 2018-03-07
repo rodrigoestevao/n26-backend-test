@@ -1,0 +1,11 @@
+server:
+  port: 5000
+  servlet:
+    context-path: /api
+spring:
+  mvc:
+    favicon:
+      enabled: false
+debug: true
+
+  
